@@ -18,9 +18,9 @@ function App() {
   return (
     <div className="App">
       <h1>{amount}</h1>
-      <button>deposit</button>
-      <button>withdraw</button>
-      <button>bankrupt</button>
+      <button onClick={()=>depositMoney(1000)}>deposit</button>
+      <button onClick={()=>withDrawMoney(500)}>withdraw</button>
+      <button onClick={()=>bankruptMoney()}>bankrupt</button>
     </div>
   );
 }

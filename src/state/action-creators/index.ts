@@ -20,7 +20,7 @@ export const withDrawMoney = (amount:number)=>{
   }
 }
 
-export const bankruptMoney = (amount:number)=>{
+export const bankruptMoney = ()=>{
   return (dispatch:Dispatch<Action>)=>{
     dispatch({
       type:ActionTypes.BANKRUPT
